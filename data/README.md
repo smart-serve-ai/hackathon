@@ -11,3 +11,7 @@ https://nadca.com/
 ServiceMarket provides listings of AC cleaning companies along with customer reviews (aggregator):
 ​
 [servicemarket.com](https://servicemarket.com/en/dubai/ac-cleaning)
+
+UAE Business Directory for local searches:
+
+https://www.yellowpages-uae.com/uae/ac-cleaning
