@@ -1,10 +1,17 @@
 # Data
 
-UAE offers official APIs to access comprehensive data on registered companies and legal entities across all emirates (require to register, obtain API credentials and generate token):
+##  Official UAE APIs
+
+Official APIs to access comprehensive data on registered companies and legal entities across all emirates (require to register, obtain API credentials and generate token):
 
 1. [National Economic Register (NER)](https://u.ae/en/information-and-services/business/important-digital-services/national-economic-register)
 2. [UAE API Marketplace](https://api.government.ae/)
 3. [Dubai Department of Economic Development (DED)](https://www.dubaipulse.gov.ae/data/ded-registration/ded_commerce_registry-open-api)
+
+## Public access from the official government websites
+
+1. https://www.moec.gov.ae/en/company-registrars-within-the-uae
+2. [https://www.growth.gov.ae/](https://www.growth.gov.ae/G2C/InquiryAboutEconomicLicenses)
 
 # MVP (example with AC cleaning)
 
