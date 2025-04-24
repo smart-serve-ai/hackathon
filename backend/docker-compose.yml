@@ -1,0 +1,31 @@
+services:
+  db:
+    build:
+      context: ./db
+    image: smartserve/db
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ${HOME}/docker_volumes/smartserve/db:/var/lib/postgresql/data/pgdata
+
+
+  app:
+    build:
+      context: ./app
+      args:
+        - ENVIRONMENT=development
+    image: smartserve/app
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - ./app/app:/opt/app/
+      - ./tg-sessions:/tmp/tg-sessions/
+    
